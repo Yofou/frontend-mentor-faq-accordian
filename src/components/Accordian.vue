@@ -30,7 +30,7 @@ import Close from "./icons/Close.vue";
 const props = defineProps<{
   title: string;
   description: string;
-  defaultValue: boolean;
+  defaultValue?: boolean;
 }>();
 
 ///// refs, provide or inject then variables /////
